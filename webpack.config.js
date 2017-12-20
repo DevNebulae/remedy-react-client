@@ -10,6 +10,7 @@ module.exports = {
     historyApiFallback: true,
     port: 3000
   },
+  devtool: "#cheap-eval-source-map",
   entry: {
     app: path.resolve(src, "index.js")
   },
