@@ -24,6 +24,10 @@ export function* getTasks() {
       tracks {
         id
         title
+        artists {
+          id
+          name
+        }
       }
     }`
     )
