@@ -28,6 +28,10 @@ export function* getTasks() {
           id
           name
         }
+        albums {
+          id
+          title
+        }
       }
     }`
     )
