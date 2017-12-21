@@ -12,14 +12,6 @@ export default class App extends React.Component {
   }
 
   render() {
-    return (
-      <ul>
-        {this.props.data.map((track, index) => (
-          <li key={`track-${track.id}`}>
-            {index}. {track.title}
-          </li>
-        ))}
-      </ul>
-    )
+    return <TrackList />
   }
 }
