@@ -10,12 +10,7 @@ const TrackList = tracks => {
     return (
       <ul>
         {tracks.data.map((track, index) => (
-          <Track
-            key={`track-${track.id}`}
-            index={index}
-            track={track}
-            artists={track.artists}
-          />
+          <Track key={`track-${track.id}`} index={index + 1} track={track} />
         ))}
       </ul>
     )
